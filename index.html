@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="main_wreppar">
+		<div class="sub_wreppar">
+		<div class="header">
+		
+	<nav>
+<div class="nav"> 
+ <ul>
+  	<li><a href="#">Home</a></li>
+  	<li><a href="inside_page/top_sell.html">Top Sell </a> </li>
+  	 <li><a href="#">Categories&raquo</a>
+	 <ul>
+	 	<li><a href="#">categories name</a></li>
+	 	<li><a href="#">categories name</a></li>
+	 	<li><a href="#">categories name</a></li>
+	 	<li><a href="#">categories name</a></li>
+	 	
+
+	 </ul>
+	 </li>
+  	 <li><a href="#">Order</a></li>
+  	 <li><a href="#">Cart</a></li>
+  	 <li><a href="#">About Us</a></li>
+  	
+  	
+ </ul>
+ <ul class="sign_in">
+ <!-- <li><a href="#">Sign in</a></li>-->
+  	 <li><a href="inside_page/sign_up.html">Sign up</a></li>
+ 
+ </ul>
+  </div>
+</nav>
+
+
+	
+      </div>
+		
+		</div>
+	</div>	
+
+
+	<div class="log_in">
+	    <div class="log_in_form">
+		<h2>Hello!</h2>
+		<h4>Sign In Your Account</h4>
+		<div class="log_in_w">
+		<div class="log_in_input">
+		<img src="image/mail.png" alt="" />
+		<input type="text" placeholder="Email"/>
+		
+		</div>
+		<div class="log_in_input">
+		<img src="image/padlock.png" alt="" />
+		<input type="password" id="myInput" placeholder="password"/>
+		
+		<span class="pass_view" onclick="myFunction()">
+		<img id="hide1" src="image/visibility.png" alt="" />
+		<img id="hide2"  src="image/view.png" alt="" />
+		</span>
+		
+		</div>
+	  <span class="remember"><input type="checkbox" /> Remember  me <a href="">Forget password</a></span>  
+		<button type="button" class="log_in_button">log in</button>
+		<h3>Don't have an account?<a href="inside_page/sign_up.html" >Create</a></h3>
+	</div>
+	</div>
+	
+	<div class="log_in_form_welcome">
+	<h2>Welcome our Website!</h2>
+	<img src="image/Akter.png" alt="" />
+	</div>
+	
+	
+	
+	
+	</div>
+	
+	<script type="text/javascript">
+	function myFunction(){
+	 var x = document.getElementById("myInput");
+	 var y = document.getElementById("hide1");
+	 var z = document.getElementById("hide2");
+	 
+	 if(x.type === 'password'){
+	 x.type = "text";
+	 y.style.display = "block";
+	 z.style.display = "none";
+	 
+	 }
+	 else{
+	  x.type = "password";
+	 y.style.display = "none";
+	 z.style.display = "block";
+	 }
+	
+	}
+	
+	</script>
+	
+</body>
+</html>

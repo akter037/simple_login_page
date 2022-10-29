@@ -1,0 +1,188 @@
+*{margin:0px;padding:0;}
+body{
+	background-image:url(image/login_b_1.png); 
+	    background-size: cover;
+	background-repeat:no-repeat;
+}
+.main_wreppar{ 
+width:100%;
+margin:0px auto;
+
+
+}
+.header{
+
+
+height:70px;
+padding:0px;	
+
+}
+
+.nav{height:60px; width:98%;
+	float:left;margin-left:16px;
+
+}
+.nav ul li{
+	list-style-type:none;
+	float:left;
+	height:32px;
+	 margin-left:2.5%;
+     
+      margin-top:21px;
+   z-index:1000;
+	position:relative;
+}
+
+.nav ul li:hover{border-bottom:4px solid #515b51;}
+.nav ul li a{
+	font-family: monospace;
+    font-style: oblique;
+	text-decoration:none;
+	font-size:22px;
+	text-align:center;
+	color:#01020e;
+	font-weight:bold;
+	transition:all 1s;
+}
+
+.nav ul li a:visited{
+	
+	color:#01020e;
+	
+}
+.nav ul li a:hover{
+	color:white;
+}
+.nav ul li ul{
+	padding:0px;
+	position:absolute;
+	left:-999999px;
+	width:250px;
+	
+
+}
+.nav ul li ul li{
+	height:38px !important;
+	margin-top:10px !important;
+	margin-left:10px !important;
+}
+
+.nav ul li:hover ul{
+	
+left:0;}
+.sign_in{
+	    width: 87px;
+    margin-left:39%;
+    float: left;
+    margin-top: -1px;
+}
+.log_in{
+	margin:60px auto;
+	width:755px;
+	height:380px;
+	background-image:url(image/login_b_2.png); background-size:100% 100%; 
+	 border-radius:15px;
+box-shadow: 8px 6px 51px 31px rgba(189,165,189,0.72);;
+	padding-top:5px;	 
+}
+
+.log_in_form{
+	height:400px;
+	width:355px;
+	float:left;
+}
+.log_in_form h2{
+	margin-left:146px;
+	margin-top:47px;
+	    font-family: cursive;
+	position:absolute;
+	border-bottom:1px solid  black ;
+}
+.log_in_form h4{
+	margin-left:108px;
+	margin-top:83px;
+	position:absolute;
+	
+}
+
+.log_in_w{
+	
+	margin: 105px 0px 0px 65px;
+	position:absolute;
+}
+.log_in_input{
+	border-bottom:1px solid  black ;
+  margin-top:30px;
+   width:250px;
+   height:29px;
+   
+}
+.log_in_input img{
+	width:23px;
+	 height:23px;
+	 float:left;
+	 margin-right:10px;
+	 
+	 
+}
+.log_in_input input{
+	color:black;
+	width:190px;
+	 height:25px;
+	border:none;
+	outline:none;
+	
+	background:transparent;
+	
+}
+.remember{
+	position: absolute;
+}
+::placeholder{
+	color:black;
+}
+.pass_view{
+	position:absolute;
+	
+}
+.remember a{
+	/*text-decoration:none;*/
+	color:black;
+	margin-left:20px;
+}
+#hide1{
+	
+	display:none;
+}
+.log_in_button{
+	width:150px;
+	 height:25px;
+	     margin: 35px 0px 0px 50px;
+	border-radius:20px;
+	 background-color: #20209ade;
+    border: 1px solid black;
+    /* padding: 5px; */
+    font-size: 16px;
+	cursor:pointer;
+}   
+
+h3{
+	 margin: 20px 0px 0px 32px;
+	font-size:15px;
+}
+.log_in_form_welcome{
+	height:400px;
+	width:355px;
+	float:left;
+}
+.log_in_form_welcome h2{
+	margin:120px 0px 0px 80px;
+	color:#120b3cd9;
+	
+}
+.log_in_form_welcome img{
+	
+	height:145px;
+	width:155px;
+	 margin: -3px 0px 0px 121px;
+}

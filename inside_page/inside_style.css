@@ -1,0 +1,79 @@
+.sign_up{
+	height:450px;
+	width:700px;
+		 border-radius:10px;
+	box-shadow: 8px 6px 51px 31px rgba(189,165,189,0.72);
+	padding-top:5px;
+	margin:30px auto;
+	
+}
+.sign_up_form h2{
+	margin:10px auto;
+	width:198px;
+	color:#490ca5;
+	
+}
+form{
+	width:600px;
+	margin:10px auto;
+}
+label{
+	font-weight:bold;
+	    font-size: 20px;
+		margin-left:10px;
+}
+input{
+	height:20px;
+	background:transparent;
+	    margin-top: 20px;
+}
+.fname{
+	margin-left:12px;
+}
+.lname{
+	margin-left:16px;
+}
+.email{
+	margin-left:52px;
+}
+.sbdate{
+	margin-left:22px;
+}
+select{
+	
+	margin-left:36px;
+	margin-top:15px;
+	width:177px;
+	height:23px;
+}
+
+.pass{
+	margin-left:30px;
+}
+.other{
+	margin-left:92px;
+}
+.submit{
+	background-color:#35068c;
+	width:100px;
+	color:white;
+	height:28px;
+	border-radius:8px;
+	margin-left:20px;
+	  cursor:pointer;
+}
+.s_submit{
+		margin-left:200px;
+	
+}
+.logo img{
+	height:236px;
+	width:255px;
+	position:absolute;
+	margin:-278px 0px 0px 397px;
+}
+
+
+
+
+
